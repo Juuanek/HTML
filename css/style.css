@@ -1,4 +1,25 @@
 body{
 
-	background: red;
+	background: blue;
+}
+
+.title {
+	color: purple
+ 
+}
+
+.about {
+	color: white
+}
+
+h1 {
+	color: red
+}
+
+.specificity {
+	color: steelblue
+}
+
+#specificity {
+	color: purple
 }
