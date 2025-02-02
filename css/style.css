@@ -23,3 +23,26 @@ h1 {
 #specificity {
 	color: purple
 }
+
+.Pseudo:hover {
+	color: pink;
+}
+
+li:first-child{
+	color:green;
+}
+
+li:last-child{
+	color:white;
+}
+li:nth-child(2){
+	color:purple;
+}
+
+.link:link{
+	color: purple;
+}
+
+.link:visited {
+	color: red;
+}
