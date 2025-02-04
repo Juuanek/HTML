@@ -46,3 +46,6 @@ li:nth-child(2){
 .link:visited {
 	color: red;
 }
+h6 + h4 {
+	color: pink;
+}
