@@ -49,3 +49,7 @@ li:nth-child(2){
 h6 + h4 {
 	color: pink;
 }
+
+img[src^="../"]{
+	border: 10px solid black;
+}
