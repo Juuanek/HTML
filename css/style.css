@@ -1,10 +1,21 @@
 body{
 
-	background: blue;
+	background: rgb(119, 120, 114);
+	background-image: url('background.jpg');
+	/*background-size: cover;*/
+	/*background-position: center;*/
+	background-repeat: repeat;
 }
 
 .title {
-	color: purple
+	color: blue;
+	text-align: center;
+	/*height: 200px;*/
+	/*width: 500px;*/
+	/*background: rgb(84, 62, 158);*/
+	font-size: 100px;
+	font-family: 'DM Sans', sans-serif;
+
  
 }
 
@@ -52,4 +63,37 @@ h6 + h4 {
 
 img[src^="../"]{
 	border: 10px solid black;
+}
+/*.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #007BFF; /* Blue color */
+   /* border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.1s ease;
+}
+.btn:hover {
+    background: black; /* Darker blue on hover */
+
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 18px;
+    color: white;
+    background: #FF5733; /* Orange-Red */
+    border: none;
+    border-radius: 50px; /* Fully rounded */
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #E04E2A;
+    transform: scale(1.05); /* Slightly enlarge on hover */
 }
