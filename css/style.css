@@ -1,5 +1,6 @@
-body{
 
+
+body{
 	background: rgb(119, 120, 114);
 	background-image: url('background.jpg');
 	/*background-size: cover;*/
@@ -8,11 +9,13 @@ body{
 }
 
 .title {
+	background-color: gray;
+	justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
 	color: blue;
 	text-align: center;
 	/*height: 200px;*/
 	/*width: 500px;*/
-	/*background: rgb(84, 62, 158);*/
 	font-size: 100px;
 	font-family: 'DM Sans', sans-serif;
 
@@ -80,20 +83,95 @@ img[src^="../"]{
     background: black; /* Darker blue on hover */
 
 
-.btn {
-    display: inline-block;
+.btn {position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 10px;
+
+	justify-content: right; /* Center content horizontally */
+    align-items: right; /* Center content vertically */
+	color: blue;
+	text-align: right;
     padding: 12px 30px;
     font-size: 18px;
-    color: white;
-    background: #FF5733; /* Orange-Red */
+    color: purple;
+    background: steelblue; /* Orange-Red */
     border: none;
-    border-radius: 50px; /* Fully rounded */
+    border-radius: 500px; /* Fully rounded */
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.btn1 {position: absolute;
+            top: 20px;
+            right: 170px;
+            display: flex;
+            gap: 10px;
+	
+	justify-content: right; /* Center content horizontally */
+    align-items: right; /* Center content vertically */
+	color: blue;
+	text-align: right;
+    padding: 12px 30px;
+    font-size: 18px;
+    color: purple;
+    background: steelblue; /* Orange-Red */
+    border: none;
+    border-radius: 500px; /* Fully rounded */
     text-decoration: none;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
 
-.btn:hover {
+.btn2 {position: absolute;
+            top: 20px;
+            right: 335px;
+            display: flex;
+            gap: 10px;
+	
+	justify-content: right; /* Center content horizontally */
+    align-items: right; /* Center content vertically */
+	color: blue;
+	text-align: right;
+    padding: 12px 30px;
+    font-size: 18px;
+    color: purple;
+    background: steelblue; /* Orange-Red */
+    border: none;
+    border-radius: 500px; /* Fully rounded */
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.btn3 {position: absolute;
+            top: 20px;
+            right: 550px;s
+            display: flex;
+            gap: 10px;
+	
+	justify-content: right; /* Center content horizontally */
+    align-items: right; /* Center content vertically */
+	color: blue;
+	text-align: right;
+    padding: 12px 30px;
+    font-size: 18px;
+    color: purple;
+    background: steelblue; /* Orange-Red */
+    border: none;
+    border-radius: 500px; /* Fully rounded */
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.navnbaralign{
+		justify-content: right; /* Center content horizontally */
+        align-items: right; /* Center content vertically */
+
+}
+
+.btn:hover, .btn1:hover, .btn2:hover, .btn3:hover {
     background: #E04E2A;
     transform: scale(1.05); /* Slightly enlarge on hover */
 }
