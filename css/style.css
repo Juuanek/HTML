@@ -1,4 +1,15 @@
+.firstdiv{
+	height: 40%;
+	width: 40%;
+	background-color: rgba(100,100,100,0.5);
+	color: gray;
+	font-size: 50px;
+}
 
+.titlecenter{
+	right: 250px;
+	background-color: gray;
+}
 
 body{
 	background: rgb(119, 120, 114);
@@ -9,15 +20,16 @@ body{
 }
 
 .title {
-	background-color: gray;
+	background-color: rgba(100,100,100,0.65);
 	justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
-	color: blue;
+    color: rgba(50,150,150,1);
 	text-align: center;
 	/*height: 200px;*/
 	/*width: 500px;*/
 	font-size: 100px;
-	font-family: 'DM Sans', sans-serif;
+	border-radius: 500px; /* Fully rounded */
+	width: 35%;
 
  
 }
@@ -93,8 +105,8 @@ img[src^="../"]{
 	text-align: right;
     padding: 12px 30px;
     font-size: 18px;
-    color: rgb(50,100,100);
-    background: rgb(100,150,150); /* Orange-Red */
+    color: rgba(50,150,150,1);
+    background: rgb(100,150,150,0.33); /* Orange-Red */
     border: none;
     border-radius: 500px; /* Fully rounded */
     text-decoration: none;
