@@ -1,15 +1,11 @@
 .firstdiv{
 	height: 40%;
 	width: 40%;
-	background-color: rgba(100,100,100,0.5);
+	background: linear-gradient(to right, rgba(100,100,100,1), rgba(100,100,100,0.0));
 	color: gray;
 	font-size: 50px;
 }
 
-.titlecenter{
-	right: 250px;
-	background-color: gray;
-}
 
 body{
 	background: rgb(119, 120, 114);
