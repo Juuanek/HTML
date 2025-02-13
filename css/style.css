@@ -12,6 +12,8 @@
 
 	font-family: sans-serif;
 		font-family: "Times New Roman", serif;
+		font-familu: "Lato", sans-serif; /*Jezeli chce pobrac jakis font trzeba wkleic tutaj nazwe
+		oraz wkleic link tag z linkiem do stylu fontu np z google fonts*/
 
 }
 
