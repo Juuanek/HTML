@@ -36,6 +36,7 @@ body{
 	font-size: 100px;
 	border-radius: 500px; /* Fully rounded */
 	width: 35%;
+	border: 20px solid steelblue;
 
  
 }
