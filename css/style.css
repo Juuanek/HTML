@@ -120,7 +120,8 @@ img[src^="../"]{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
-.btn {right: 20px;}
+.btn {right: 20px;
+	display: none;}
 .btn1 {right: 170px;}
 .btn2 {right: 335px;}
 .btn3 {right: 550px;}
@@ -135,4 +136,11 @@ img[src^="../"]{
     background: rgb(100,100,100);
     color: darkgray;
     transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.image{
+	border: 10px solid black;
+	margin: 10px;
+	padding: 10px;
+	float: right;
 }
