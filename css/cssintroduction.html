@@ -6,7 +6,7 @@
 </head>
 <body>
 
-	
+	 
 		<a href="aboutme.html" class="btn1">ABOUT ME</a>
 		<a href="crotchetshop.html" class="btn2">CROTCHET SHOP</a>
 		<a href="blog.html" class="btn3">BLOG</a>
@@ -58,11 +58,44 @@
 		</div>
 
 		<div class="container">
-			<div class="container-item">A</div>
-			<div class="container-item">B</div>
-			<div class="container-item">C</div>
-			<div class="container-item">D</div>
-			<div class="container-item">E</div>
+			<div class="container-item" 
+				style="order: 4;
+				flex-grow: 5;
+				flex-shrink: 0;
+				flex-basis: 200px;
+				align-self: center;
+			">A</div>
+
+			<div class="container-item" 
+				style="order: 3;
+				flex-grow: 5;
+				flex-shrink: 0;
+				flex-basis: 100px;
+				align-self: flex-end;
+			">B</div>
+
+			<div class="container-item" 
+				style="order: 5;
+				flex-grow: 1;
+				flex-shrink: 5;
+				flex-basis: 100px;
+				align-self: flex-start;
+
+			">C</div>
+
+			<div class="container-item" 
+				style="order: 1;
+				flex-grow: 1;
+				flex-shrink: 5;
+				flex-basis: 500pe;
+				align-self: flex-start;
+			">D</div>
+
+			<div class="container-item" 
+				style="order: 2;
+				flex: 1 1 100px;
+				align-self: center;
+			">E</div>
 		</div>
 
 
