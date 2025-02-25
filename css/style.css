@@ -1,9 +1,13 @@
 .gird-container{
 	background-color: darkgray;
 	margin: 50px;
-	height:500px;
+	height:100px;
 
 	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 100px 100px;
+
+	
 }
 .grid-item{
 	color: black;
@@ -13,7 +17,23 @@
 	width: 100px;
 	line-height: 40px;
 	margin:20px;
+	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
