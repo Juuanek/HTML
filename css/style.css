@@ -19,10 +19,39 @@
 /*	transform: rotate(45deg);*/
 /*	transform: skew(10deg);*/
 	transform: matrix(1, 1, 1, 1, 2, 2); ?rozmiar, skew, scale
-
-
 }
 
+#animation {
+	animation-name: red-to-black;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+
+@keyframes red-to-black {
+	0% {
+		background: rgb(91, 77, 161);
+/*		transform: translate(0px, 0px);*/
+	}
+	25% {
+		background: rgb(45, 29, 128);
+/*		transform: translate(0px, 0px);*/
+	}
+	50% {
+		background: rgb(28, 18, 82);
+/*		transform: translate(10px, 10px);*/
+	}
+	75% {
+		background: rgb(55, 32, 97);
+/*		transform: translate(0px, 0px);*/
+	}
+	100%{
+		background: rgb(78, 32, 97);
+/*		transform: translate(20px, 20px);*/
+	}
+}
 
 
 
