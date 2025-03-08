@@ -27,29 +27,31 @@
 	animation-timing-function: linear;
 	animation-direction: alternate;
 	animation-iteration-count: infinite;
+
+/*	animation: bounce 2s ease-in-out infinite alternate;*/
 }
 
 
 @keyframes red-to-black {
 	0% {
 		background: rgb(91, 77, 161);
-/*		transform: translate(0px, 0px);*/
+		transform: translate(0px, 0px);
 	}
 	25% {
 		background: rgb(45, 29, 128);
-/*		transform: translate(0px, 0px);*/
+		transform: translate(0px, 50px);
 	}
 	50% {
 		background: rgb(28, 18, 82);
-/*		transform: translate(10px, 10px);*/
+		transform: translate(10px, 100px);
 	}
 	75% {
 		background: rgb(55, 32, 97);
-/*		transform: translate(0px, 0px);*/
+		transform: translate(0px, 150px);
 	}
 	100%{
 		background: rgb(78, 32, 97);
-/*		transform: translate(20px, 20px);*/
+		transform: translate(0px, 200px);
 	}
 }
 
