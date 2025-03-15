@@ -1,3 +1,29 @@
 h1{
 	color: red;
 }
+.image-grid {
+	border: 20px solid red;
+	margin-right: 50px;
+	margin-left: 50px;
+
+/*	display: flex;*/
+/*	flex-direction: row;*/
+/*	flex-wrap: wrap;*/
+/*	justify-content: center;*/
+/*    transform: scale(0.5);*/
+	display: grid;
+/*	grid-template-columns: auto auto auto;*/
+/*	grid-template-rows: auto auto;*/
+	align-content: end;
+		grid-gap: 10px 10px;
+
+
+}
+.image {
+	width: 50%;
+	height: auto;
+}
+img {
+	width: 25%;
+	height: auto;
+}
