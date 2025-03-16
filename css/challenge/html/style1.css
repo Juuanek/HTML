@@ -1,29 +1,50 @@
 h1{
 	color: red;
 }
+.para-1{
+	height: 35%;
+	width: 35%;
+	display: grid;
+	border: 20px solid red;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 25px;
+	
+}
+#img1 {
+	width: 25%;
+	height: auto;
+	border: 20px solid red;
+	display: flex !important;
+	justify-content: right;
+	float: right !important;
+	transform: translate(1000px);
+	}
+
 .image-grid {
 	border: 20px solid red;
 	margin-right: 50px;
 	margin-left: 50px;
-
-/*	display: flex;*/
-/*	flex-direction: row;*/
-/*	flex-wrap: wrap;*/
-/*	justify-content: center;*/
-/*    transform: scale(0.5);*/
-	display: grid;
-/*	grid-template-columns: auto auto auto;*/
-/*	grid-template-rows: auto auto;*/
-	align-content: end;
-		grid-gap: 10px 10px;
-
+	margin-top: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px;
+	justify-content: center;
+	flex-basis: 25%;
 
 }
-.image {
-	width: 50%;
-	height: auto;
+
+#image {
+/*	width: 25%;*/
+/*	height: auto;*/
+flex: 1 1 25%; /* flex-grow: 1, flex-shrink: 1, flex-basis: 25% */
+    max-width: 25%; /* Prevents items from stretching too much */
+    display: flex;
+    justify-content: center; /* Centers the image inside */
 }
-img {
+}
+
+/*img {
 	width: 25%;
 	height: auto;
 }
