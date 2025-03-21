@@ -1,31 +1,66 @@
+body {
+	background: linear-gradient(to top, lightblue, gray);
+	font-family: sans-serif;
+}
+.sidebar {
+	border: 3px solid lightgrey;
+	float: right;
+/*	height: 1100px;*/
+	width: 600px;
+	margin-right: -12px !important;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	padding: 20px;
+	background: linear-gradient(to right, rgba(220,140,45,0.5), black);
+
+
+}
+
 h1{
 	color: red;
 }
 .para-1{
-	height: 35%;
+	height: 25%;
 	width: 35%;
-	display: grid;
-	border: 20px solid red;
-	margin-right: 50px;
-	margin-left: 50px;
+/*	display: grid;*/
+	border: 5px solid mediumpurple;
+	margin-right: 20px;
+	margin-left: 20px;
 	margin-top: 25px;
+	text-align: center;
+	border-radius: 20px;
+/*	background: golden;*/
+	background-color: gray;
+
+
 	
 }
+
+.para-2 {
+	text-align: left;
+}
 #img1 {
-	width: 25%;
+
+	width: 20%;
 	height: auto;
-	border: 20px solid red;
+/*	border: 5px solid darkgoldenrod;*/
+	border-radius: 15px;
 	display: flex !important;
-	justify-content: right;
+/*	justify-content: left;*/
 	float: right !important;
-	transform: translate(1000px);
+	transform: translate(-50px);
+/*	position: fixed;*/
 	}
 
 .image-grid {
-	border: 20px solid red;
+	border-radius: 20px;
+	background-color: rgb(155, 216, 235);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border: 2px dotted darkgoldenrod;
 	margin-right: 50px;
 	margin-left: 50px;
-	margin-top: 500px;
+	margin-top: 50px;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 25px;
@@ -34,13 +69,21 @@ h1{
 
 }
 
+
 #image {
+	border-radius:15px;
 /*	width: 25%;*/
 /*	height: auto;*/
 flex: 1 1 25%; /* flex-grow: 1, flex-shrink: 1, flex-basis: 25% */
     max-width: 25%; /* Prevents items from stretching too much */
+    height: 10%;
     display: flex;
     justify-content: center; /* Centers the image inside */
+}
+#image:hover{
+	transform: scale(1.05);
+	opacity: 70%;
+	border: 1px solid green;
 }
 }
 
